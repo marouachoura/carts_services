@@ -8,4 +8,4 @@ FROM weaveworksdemos/msd-java:jre-latest
 LABEL maintainer="maroua"
 ADD target/carts.jar carts.jar
 ENTRYPOINT ["java","-jar","carts.jar"]
-EXPOSE 8080
+EXPOSE 8081
